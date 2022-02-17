@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/tut4/style.css">
+    <title>Form 1</title>
+</head>
+
+<style>
+    .formm{
+    display: table;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    opacity: 90%;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 200px;
+    border: 5px;
+    border-color: black;
+    box-shadow: 5px 5px;
+    }
+</style>
+
+<body style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); align-items: center;">
+    
+    <p class="f">Fill the form <br> please</p>
+    
+    <form name="form1" class="formm">
+        <p>
+            <label>Name: </label>
+            <input type="text" id="name" class="inputs" required>
+        </p>
+        <p>
+            <label>Phone Number: </label>
+            <input type="number" id="phone" class="inputs">
+        </p>
+        <p>
+            <label>Email: </label>
+            <input type="email" id="email" class="inputs">
+        </p>
+        <p>
+            <input type="button" value="Submit" class="button">
+            <input type="reset" value="Reset" class="button">
+        </p>
+    </form>
+</body>
+</html>
