@@ -36,5 +36,10 @@ label{
     transition: transform 2s;
 }
 
+@media(min-width: 1200px){
+    .formm{
+        margin-left: 33%;
+    }
+}
 
 
